@@ -1,0 +1,656 @@
+.energy-scenario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px 0px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.energy-scenario .section {
+  height: 98px;
+  justify-content: center;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  padding: 60px 170px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffc600;
+  overflow: hidden;
+}
+
+.energy-scenario .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  margin-top: -35px;
+  margin-bottom: -35px;
+}
+
+.energy-scenario .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.energy-scenario .vector {
+  top: 98px;
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.energy-scenario .scenario {
+  position: relative;
+  width: 747px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.energy-scenario .div {
+  height: 569px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 60px 170px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffc600;
+  overflow: hidden;
+}
+
+.energy-scenario .list {
+  width: 300px;
+  gap: 16px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.energy-scenario .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Black", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.energy-scenario .image-container {
+  width: 223px;
+  height: 151px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.energy-scenario .image {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #b0b0b080;
+}
+
+.energy-scenario .img {
+  position: absolute;
+  width: 222px;
+  height: 151px;
+  top: 0;
+  left: 2px;
+  object-fit: cover;
+}
+
+.energy-scenario .row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.energy-scenario .article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #0000001a;
+}
+
+.energy-scenario .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.energy-scenario .subtitle {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.energy-scenario .span {
+  font-weight: 700;
+}
+
+.energy-scenario .text-wrapper-2 {
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+}
+
+.energy-scenario .vector-2 {
+  top: 568px;
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.energy-scenario .list-2 {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 0px;
+  position: relative;
+  margin-left: -470px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.energy-scenario .image-container-2 {
+  display: flex;
+  width: 223px;
+  height: 152px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.energy-scenario .scenario-2 {
+  position: relative;
+  width: 222px;
+  height: 152px;
+  object-fit: cover;
+}
+
+.energy-scenario .scenario-wrapper {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 152px;
+  background-color: #b0b0b080;
+}
+
+.energy-scenario .scenario-3 {
+  position: absolute;
+  width: 222px;
+  height: 152px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.energy-scenario .section-2 {
+  display: flex;
+  height: 476px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 60px 170px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  overflow: hidden;
+}
+
+.energy-scenario .row-wrapper {
+  width: 1314px;
+  gap: 40px;
+  margin-top: -49px;
+  margin-bottom: -49px;
+  margin-left: -107px;
+  margin-right: -107px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.energy-scenario .article-wrapper {
+  height: 414px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.energy-scenario .article-2 {
+  display: flex;
+  height: 411px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #0000001a;
+}
+
+.energy-scenario .image-container-3 {
+  width: 543px;
+  height: 370px;
+  border: 1px solid;
+  border-color: #000000;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.energy-scenario .image-2 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: #d8d8d880;
+}
+
+.energy-scenario .scenario-4 {
+  position: relative;
+  width: 542px;
+  height: 370px;
+  object-fit: cover;
+}
+
+.energy-scenario .frame-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 253px;
+}
+
+.energy-scenario .title-2 {
+  position: absolute;
+  width: 723px;
+  height: 28px;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+.energy-scenario .p {
+  position: absolute;
+  width: 723px;
+  top: 43px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.energy-scenario .vector-3 {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 476px;
+  left: 0;
+  object-fit: cover;
+}
+
+.energy-scenario .scenario-5 {
+  position: absolute;
+  width: 542px;
+  height: 370px;
+  top: 0;
+  left: 1px;
+  object-fit: cover;
+}
+
+.energy-scenario .div-wrapper {
+  width: 1314px;
+  height: 369px;
+  gap: 40px;
+  margin-top: -6.5px;
+  margin-bottom: -6.5px;
+  margin-left: -107px;
+  margin-right: -107px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.energy-scenario .row-2 {
+  height: 414px;
+  margin-top: -42.5px;
+  margin-bottom: -42.5px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.energy-scenario .image-container-4 {
+  width: 543px;
+  height: 370px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.energy-scenario .section-3 {
+  height: 148px;
+  justify-content: center;
+  gap: 60px;
+  display: flex;
+  align-items: center;
+  padding: 60px 170px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffc600;
+  overflow: hidden;
+}
+
+.energy-scenario .title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.energy-scenario .title-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.energy-scenario .button-wrapper {
+  gap: 40px;
+  flex: 1;
+  flex-grow: 1;
+  margin-top: -30px;
+  margin-bottom: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+}
+
+.energy-scenario .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.energy-scenario .primary {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  flex: 0 0 auto;
+  position: relative;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.energy-scenario .title-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-left: -4px;
+  margin-right: -4px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.energy-scenario .vector-4 {
+  top: 148px;
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.energy-scenario .top-bar {
+  display: flex;
+  width: 1440px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffc600;
+  box-shadow: 0px 0px 6px #0000001f;
+  background-blend-mode: screen;
+  background-image: url(./img/top-bar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.energy-scenario .mingcute-solar-panel {
+  position: relative;
+  width: 73px;
+  height: 73px;
+  margin-top: -16.5px;
+  margin-bottom: -16.5px;
+}
+
+.energy-scenario .title-5 {
+  position: relative;
+  flex: 1;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.energy-scenario .heroicons-home {
+  position: relative;
+  width: 43px;
+  height: 43px;
+  margin-top: -1.5px;
+  margin-bottom: -1.5px;
+}
+
+.energy-scenario .primary-2 {
+  position: relative;
+  width: 59px;
+  height: 36px;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.energy-scenario .title-6 {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.energy-scenario .primary-3 {
+  width: 92px;
+  height: 36px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.energy-scenario .title-7 {
+  position: absolute;
+  top: 5px;
+  left: 14px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.energy-scenario .primary-4 {
+  width: 67px;
+  height: 36px;
+  position: relative;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.energy-scenario .title-8 {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.energy-scenario .navigation {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.energy-scenario .textfield {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  padding: 8px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #0000001a;
+}
+
+.energy-scenario .text {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.energy-scenario .ic-search {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}

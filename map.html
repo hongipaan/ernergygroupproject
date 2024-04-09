@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="style map.css" />
+    </head>
+    <body>
+        <div class="map">
+            <div class="section">
+                <div class="container">
+                    <p class="title">
+                        <span class="text-wrapper">Survey Map （From Ushahidi.com)<br /></span>
+                        <span class="span">Public Account: PVpanelsked@hotmail.com<br /></span>
+                        <span class="text-wrapper-2">Password: 8888 8888</span>
+                    </p>
+                </div>
+                <img class="vector" src="img/vector-200.svg" />
+            </div>
+            <iframe src="https://datalabassignment.ushahidi.io/map" height="800" width="1000" margin-top="-200px" title="Iframe Example"></iframe>
+            <div class="top-bar">
+                <img class="mingcute-solar-panel" src="img/mingcute-solar-panel-line.svg" />
+                <p class="p">PV Panel Installation Assumptions - SKED</p>
+                <a href="index.html"><img class="heroicons-home" src="img/heroicons-home-20-solid.svg" /></a>
+                <button class="button"onclick= ""> <a href="about.html">
+                    <div class="primary"><div class="title-2">About</div></div>
+                </button></a>
+                <button class="button"onclick= ""> <a href="Scenario.html">
+                    <div class="title-wrapper"><div class="title-3">Scenario</div></div>
+                </button></a>
+                <button class="button"onclick= ""> <a href="Calculator.html">
+                    <div class="title-wrapper"><div class="title-2">Calculator</div></div>
+                </button></a>
+                <button class="button"onclick= ""> <a href="Map.html">
+                    <div class="primary"><div class="title-3">Map</div></div>
+                </button></a>
+                <button class="button"onclick= ""> <a href="Contact.html">
+                    <div class="div-wrapper"><div class="title-4">Contact</div></div>
+                </button></a>
+                <div class="navigation">
+                    <div class="textfield">
+                        <div class="text">Search in site</div>
+                        <img class="ic-search" src="img/ic-search.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">   
+
+
+<table id="yourTable">
+  
+  <tbody>
+         <tr height="32"> 
+          <td class="header"style="width:20%;">Name</td> 
+          <td class="header"style="width:25%;">System Lifetime(year)</td> 
+          <td class="header"style="width:15%;">Tyoe of PV panel</td> 
+          <td class="header"style="width:15%;">Area(Sqm)</td> 
+          <td class="header"style="width:30%;">Energy production(MWh)</td> 
+          <td class="header"style="width:50%;">Total Profit(SGD)</td> 
+         </tr> 
+         <table id="myTable">
+         <tr height="27"> 
+          <td  >James</td> 
+          <td >25</td> 
+          <td >Roof</td> 
+          <td >1000</td> 
+          <td >50,000</td> 
+          <td >40,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td >Ang</td> 
+          <td >25</td> 
+          <td >BIPV</td> 
+          <td>1000</td> 
+          <td >2,614</td> 
+          <td >800.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td >Mike</td> 
+          <td  >5</td> 
+          <td >Roof</td> 
+          <td  >1000</td> 
+          <td >10,000</td> 
+          <td >8,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td >Lee</td> 
+          <td  >25</td> 
+          <td >BIPV</td> 
+          <td >2000</td> 
+          <td >5,228</td> 
+          <td >1,600.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td >Smith</td> 
+          <td >10</td> 
+          <td >Roof+BIPV</td> 
+          <td  >1000</td> 
+          <td >20,000</td> 
+          <td >16,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td  >Tom</td> 
+          <td >25</td> 
+          <td >Roof</td> 
+          <td >2000</td> 
+          <td >100,000</td> 
+          <td >80,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td  >King</td> 
+          <td >25</td> 
+          <td >Roof</td> 
+          <td >1000</td> 
+          <td >50,000</td> 
+          <td >40,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td  >Joe</td> 
+          <td >25</td> 
+          <td >Roof</td> 
+          <td >4000</td> 
+          <td >200,000</td> 
+          <td >160,000.00</td> 
+         </tr> 
+         <tr height="27"> 
+          <td  >Hellokitty</td> 
+          <td >5</td> 
+          <td >Roof</td> 
+          <td >1000</td> 
+          <td >10,000</td> 
+          <td >8,000.00</td> 
+         </tr> 
+         
+        </tbody>
+      </table>
+       </table>
+       <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+        
+          // Loop through all table rows, and hide those who don't match the search query
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+        </script>
+
+      </div>
+    </div>
+</html>
